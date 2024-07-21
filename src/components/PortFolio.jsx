@@ -46,10 +46,10 @@ function PortFolio() {
       <div>
         <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
         <span className=" underline font-semibold">Featured Projects</span>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-20 my-5">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300"
+              className="md:w-[290px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300 "
               key={id}
             >
               <img
