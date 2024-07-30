@@ -11,8 +11,8 @@ function Contact() {
         name="Contact"
         className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
       >
-        <h1 className="text-3xl font-bold mb-4">Contact me</h1>
-        <span>Please fill out the form below to contact me</span>
+        <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
+        <span>Please Fill Out The Form Below To Contact Me</span>
         <div className=" flex flex-col items-center justify-center mt-5">
           <form
          action="https://formsubmit.co/kmoinkhanfc771@gmail.com" method="POST"
@@ -36,7 +36,7 @@ function Contact() {
                 id="email"
                 name="email" required
                 type="text"
-                placeholder="Enter your email address"
+                placeholder="Enter Your Email Address"
               />
             </div>
             <div className="flex flex-col mb-4">
@@ -46,7 +46,7 @@ function Contact() {
                 id="message"
                 name="message" required
                 type="text"
-                placeholder="Enter your Query"
+                placeholder="Enter Your Query"
               />
             </div>
             <input type="hidden" name="_captcha" value="false"></input>
@@ -55,7 +55,7 @@ function Contact() {
               type="submit"
               className="bg-black text-white rounded-xl px-3 py-2 hover:bg-slate-700 duration-300"
             >
-              Send
+              Send Message
             </button>
           </form>
         </div>
