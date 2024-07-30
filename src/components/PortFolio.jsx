@@ -59,20 +59,16 @@ function PortFolio() {
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
-        <span className=" underline font-semibold">Featured Projects</span>
+        <span className=" underline font-semibold">Feature Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-20 my-5">
           {cardItem.map(({ id, logo, name, videoLink, sourceCodeLink }) => (
             <div
-              className="md:w-[290px] md:h-[300px] hover:scale-100 duration-75 border-[2px] rounded-lg shadow-lg p-1 cursor-pointer  duration-300"
+              className="md:w-[290px] md:h-[300px] hover:scale-100 duration- border-[2px] rounded-lg shadow-lg p-1 cursor-pointer  duration-300"
               key={id}
             >
               <img
                 src={logo}
-<<<<<<< HEAD
                 className="w-[120px] h-[120px] hover:scale-100 duration-100 p-1 rounded-full border-[2px]"
-=======
-                className=" w-[150px] h-[150px] p-1 rounded-full border-[2px]"
->>>>>>> 9f3b760312c81150272fd50e5147f139ef50368d
                 alt=""
               />
               <div>
@@ -84,13 +80,13 @@ function PortFolio() {
               <div className="px-6 py-4 space-x-3 justify-around">
                 <a
                   href={videoLink} target="_blank"
-                  className= "hover:scale-100 duration-100 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
                 >
                   Go to Web
                 </a>
                 <a
                   href={sourceCodeLink} target="_blank"
-                  className="hover:scale-100 duration-100 bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
+                  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
                 >
                    Github
                 </a>
