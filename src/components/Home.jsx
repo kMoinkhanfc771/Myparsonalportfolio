@@ -19,7 +19,7 @@ function Home() {
     <>
       <div
         name="Home"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20   bg-gradient-to-r from-indigo-100 to-black"
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
@@ -28,7 +28,7 @@ function Home() {
               <h1>Hello, I'm a</h1>
               {/* <span >Developer</span> */}
               <ReactTyped
-                className="text-red-700 font-bold"
+                className="text-black font-bold"
                 strings={["Developer", "Programmer", "Coder"]}
                 typeSpeed={40}
                 backSpeed={50}
@@ -82,10 +82,10 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1  ">
+          <div className="md:w-1/2 md:ml-48 md:mt-10 mt-8 order-1 pb-4  ">
             <img
               src={pic}
-              className="rounded-full  md:w-[450px] md:h-[450px] "
+              className="rounded-full  md:w-[450px] md:h-[450px]  "
               alt=""
             />
           </div>

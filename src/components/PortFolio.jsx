@@ -55,7 +55,7 @@ function PortFolio() {
   return (
     <div
       name="Portfolio"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
+      className="bg-gradient-to-r from-indigo-100 to-black max-w-screen-2xl container mx-auto p-4 md:p-20 mt-10"
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>

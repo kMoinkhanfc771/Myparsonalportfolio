@@ -9,7 +9,7 @@ function Contact() {
     <>
       <div
         name="Contact"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
+        className="bg-gradient-to-r from-indigo-100 to-black max-w-screen-2xl container mx-auto p-4 md:p-20 my-16"
       >
         <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
         <span>Please Fill Out The Form Below To Contact Me</span>
