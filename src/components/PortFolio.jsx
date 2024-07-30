@@ -80,13 +80,13 @@ function PortFolio() {
               <div className="px-6 py-4 space-x-3 justify-around">
                 <a
                   href={videoLink} target="_blank"
-                  className= "hover:scale-125 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
+                  className= " bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
                 >
                   Go to Web
                 </a>
                 <a
                   href={sourceCodeLink} target="_blank"
-                  className="hover:scale-125 bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
+                  className=" bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
                 >
                    Github
                 </a>
