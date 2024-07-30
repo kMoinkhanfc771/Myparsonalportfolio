@@ -50,6 +50,20 @@ function PortFolio() {
       videoLink: "https://mydiscountanwebsite.netlify.app/",
       sourceCodeLink: "https://github.com/kMoinkhanfc771/portFolio",
     },
+    {
+      id: 7,
+      logo: "https://www.amitree.com/wp-content/uploads/2021/08/the-pros-and-cons-of-paper-to-do-lists.jpeg",
+      name: "Todo List",
+      videoLink: "https://moinfc-portfolio-website.netlify.app/",
+      sourceCodeLink: "https://github.com/kMoinkhanfc771/portFolio",
+    },
+    {
+      id: 8,
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDy8Xwgc7yDnxR3jV-EsQ6T5wG-nNT1DgUQ&s",
+      name: "Book Shop",
+      videoLink: "https://mydiscountanwebsite.netlify.app/",
+      sourceCodeLink: "https://github.com/kMoinkhanfc771/portFolio",
+    },
   ];
 
   return (
