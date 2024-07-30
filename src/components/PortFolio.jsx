@@ -68,7 +68,11 @@ function PortFolio() {
             >
               <img
                 src={logo}
+<<<<<<< HEAD
                 className="w-[120px] h-[120px] hover:scale-100 duration-100 p-1 rounded-full border-[2px]"
+=======
+                className=" w-[150px] h-[150px] p-1 rounded-full border-[2px]"
+>>>>>>> 9f3b760312c81150272fd50e5147f139ef50368d
                 alt=""
               />
               <div>
@@ -80,13 +84,13 @@ function PortFolio() {
               <div className="px-6 py-4 space-x-3 justify-around">
                 <a
                   href={videoLink} target="_blank"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
+                  className= "hover:scale-100 duration-100 bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
                 >
                   Go to Web
                 </a>
                 <a
                   href={sourceCodeLink} target="_blank"
-                  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
+                  className="hover:scale-100 duration-100 bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
                 >
                    Github
                 </a>
