@@ -68,7 +68,7 @@ function PortFolio() {
             >
               <img
                 src={logo}
-                className="w-[120px] h-[120px] hover:scale-110 duration-300 p-1 rounded-full border-[2px]"
+                className="w-[120px] h-[120px]  p-1 rounded-full border-[2px]"
                 alt=""
               />
               <div>
