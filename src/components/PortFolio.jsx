@@ -69,40 +69,44 @@ function PortFolio() {
   return (
     <div
       name="Portfolio"
-      className="bg-gradient-to-r from-indigo-100 to-black max-w-screen-2xl container mx-auto p-4 md:p-20 mt-10"
+      className="bg-gradient-to-r from-custom-black to-custom-gray max-w-screen-xl container mx-auto p-4 md:p-20 mt-10 overflow-x-hidden"
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
-        <span className=" underline font-semibold">Feature Projects</span>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-20 my-5">
+        <span className="underline font-semibold">Feature Projects</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-10 my-5">
           {cardItem.map(({ id, logo, name, videoLink, sourceCodeLink }) => (
             <div
-              className="md:w-[290px] md:h-[300px]  border-[2px] rounded-lg shadow-lg p-1 cursor-pointer  duration-300"
+              className="border-[2px] rounded-lg shadow-lg p-4 cursor-pointer duration-300"
               key={id}
             >
               <img
                 src={logo}
-                className="w-[150px] h-[150px] hover:scale-100 duration-100 p-1 rounded-full border-[2px]"
-                alt=""
+                className="w-full h-40 object-cover hover:scale-105 duration-300 rounded-lg border-[2px]"
+                alt={name}
               />
-              <div>
-                <div className="px-2 font-bold text-xl mb-2">{name}</div>
-                <p className="px-2 text-white">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              <div className="mt-4">
+                <div className="font-bold text-xl mb-2">{name}</div>
+                <p className="text-white">
+                  Lorem ipsum, dolor sit amet consectetur.
                 </p>
               </div>
-              <div className="px-6 py-4 space-x-3 justify-around">
+              <div className="mt-4 flex space-x-3">
                 <a
-                  href={videoLink} target="_blank"
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
+                  href={videoLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-2 py-2 rounded"
                 >
                   Go to Web
                 </a>
                 <a
-                  href={sourceCodeLink} target="_blank"
+                  href={sourceCodeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
                 >
-                   Github
+                  Github
                 </a>
               </div>
             </div>
