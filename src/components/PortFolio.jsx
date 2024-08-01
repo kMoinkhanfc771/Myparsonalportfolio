@@ -100,7 +100,7 @@ function PortFolio() {
           <div className="swiper-wrapper">
             {cardItem.map(({ id, logo, name, videoLink, sourceCodeLink }) => (
               <div className="swiper-slide" key={id}>
-                <div className="bg-transparent border-[2px] rounded-lg shadow-lg p-4 cursor-pointer duration-300 bg-white">
+                <div className="bg-gradient-to-r from-custom-black to-custom-gray border-[2px] rounded-lg shadow-lg p-4 cursor-pointer duration-300 bg-white">
                   <img
                     src={logo}
                     className="w-full h-40 object-cover hover:scale-105 duration-300 rounded-lg border-[2px]"
