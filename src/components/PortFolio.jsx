@@ -19,8 +19,8 @@ function PortFolio() {
       id: 2,
       logo: "https://media.istockphoto.com/id/1618446911/photo/radio-man-and-a-security-guard-or-safety-officer-outdoor-on-a-city-road-for-communication.webp?s=1024x1024&w=is&k=20&c=G1bgORlrCYr-gSu1v-MSGyyEHd292h1P3Fp9CfowDVc=",
       name: "Guard",
-      videoLink: "https://kmoinkhanfc774guardwebsite.netlify.app/",
-      sourceCodeLink: "https://github.com/kMoinkhanfc771/Oustanding-Scrollbar",
+      videoLink: "https://myguardwe.netlify.app/",
+      sourceCodeLink: "https://github.com/kMoinkhanfc771/guard",
     },
     {
       id: 3,
