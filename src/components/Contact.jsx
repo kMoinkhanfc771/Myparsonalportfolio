@@ -1,10 +1,6 @@
-import axios from "axios";
 import React from "react";
-import { useForm } from "react-hook-form";
-import toast from "react-hot-toast";
 
 function Contact() {
-  
   return (
     <>
       <div
@@ -15,8 +11,10 @@ function Contact() {
         <span>Please Fill Out The Form Below To Contact Me</span>
         <div className="flex flex-col items-center justify-center mt-5">
           <form
-            action="https://formsubmit.co/kmoinkhanfc771@gmail.com" 
+          action="https://formspree.io/f/xyzgwnvn"
+            name="contact"  // Form name for Netlify
             method="POST"
+            data-netlify="true" // Netlify Forms ko enable karta hai
             className="bg-slate-200 w-full max-w-lg px-8 py-6 rounded-xl"
           >
             <h1 className="text-xl font-semibold text-black mb-4">Send Your Message</h1>
@@ -25,7 +23,7 @@ function Contact() {
               <input
                 className="shadow rounded-lg appearance-none border py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="name"
-                name="name" 
+                name="name"
                 required
                 type="text"
                 placeholder="Enter your fullname"
@@ -36,9 +34,9 @@ function Contact() {
               <input
                 className="shadow rounded-lg appearance-none border py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="email"
-                name="email" 
+                name="email"
                 required
-                type="text"
+                type="email"
                 placeholder="Enter Your Email Address"
               />
             </div>
@@ -47,13 +45,12 @@ function Contact() {
               <textarea
                 className="shadow rounded-lg appearance-none border py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="message"
-                name="message" 
+                name="message"
                 required
                 placeholder="Enter Your Query"
               />
             </div>
-            <input type="hidden" name="_captcha" value="false"></input>
-            <input type="hidden" name="_template" value="table"></input>
+            <input type="hidden" name="form-name" value="contact" /> {/* Hidden field for form name */}
             <button
               type="submit"
               className="bg-black text-white rounded-xl px-3 py-2 hover:bg-slate-700 duration-300"
