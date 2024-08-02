@@ -11,7 +11,7 @@ function Contact() {
         <span>Please Fill Out The Form Below To Contact Me</span>
         <div className="flex flex-col items-center justify-center mt-5">
           <form
-          action="https://formspree.io/f/xyzgwnvn"
+          action="https://formspree.io/f/mldrbpkw"
             name="contact"  // Form name for Netlify
             method="POST"
             data-netlify="true" // Netlify Forms ko enable karta hai
