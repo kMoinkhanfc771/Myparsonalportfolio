@@ -1,6 +1,6 @@
 import React from "react";
 
-import pic from "../../public/moin.png";
+import pic from "../../public/moinpic22.jpg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -16,7 +16,7 @@ import { ReactTyped } from "react-typed";
 
 function Home() {
   return (
-    <>
+    <>  
       <div
         name="Home"
         className="max-w-screen-xl container mx-auto px-4 md:px-20 my-20 bg-gradient-to-r from-custom-black to-custom-gray"
